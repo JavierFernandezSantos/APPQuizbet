@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:background="#B9DFFF"
+    android:elevation="3dp"
+    android:padding="4dp">
+
+    <Button
+        android:id="@+id/btInfo"
+        android:layout_width="65dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:autoText="false"
+        android:text="Info"
+        android:textSize="8sp"
+        app:backgroundTint="#003C6E"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPuntos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtPuntos" />
+
+    <TextView
+        android:id="@+id/txtApell"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="4dp"
+        android:text="Apellidos:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtNomb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNomb"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomb" />
+
+    <TextView
+        android:id="@+id/nombrePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="holaaaa"
+        android:textColor="#003C6E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNomb"
+        app:layout_constraintStart_toEndOf="@+id/txtNomb"
+        app:layout_constraintTop_toTopOf="@+id/txtNomb"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="holaaaa"
+        android:textColor="#003C6E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtApell"
+        app:layout_constraintStart_toEndOf="@+id/txtApell"
+        app:layout_constraintTop_toTopOf="@+id/txtApell"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtNomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Nombre:"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/txtPuesto"
+        android:layout_width="42dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="1"
+        android:textColor="#0E3555"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:text="1999"
+        android:textColor="#0E3555"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPuesto"
+        app:layout_constraintStart_toEndOf="@+id/txtPuesto"
+        app:layout_constraintTop_toTopOf="@+id/txtPuesto"
+        app:layout_constraintVertical_bias="0.538" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
